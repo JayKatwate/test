@@ -1,0 +1,18 @@
+
+<!-- interpolation data binding ex. -->
+
+<h1>My name is {{firstname}}</h1>
+<h1>My surname is {{lastname}}</h1>
+<h1>My adress is {{adressobj.lane1}},{{adressobj.city}},{{adressobj.state}},{{adressobj.Pincode}}.</h1>
+<img src="{{imagepath}}" alt="" style="height: 200px;width: 300px;">&nbsp;
+<p>My name is {{firstname}},My surname is {{lastname}}</p>
+
+<!-- property binding ex. -->
+<img [src]="imagepath" alt="" style="height: 200px;width: 300px;"><br><br>
+
+<!-- event binding -->
+<!-- click,mouse hover,keyup,keydown etc events -->
+
+<button type="button" (click)="otp()">Get otp</button>
+<h1>Your OTP is {{otpa}}</h1>
+<h2>counter={{counter}}</h2>
