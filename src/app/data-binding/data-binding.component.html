@@ -15,3 +15,7 @@
 <button type="button" (click)="otp()">Get otp</button>
 <h1>Your OTP is {{otpa}}</h1>
 <h2>counter={{counter}}</h2>
+
+<!-- two way data binding -->
+<label for="id1">Name :</label>
+<input type="text" id="id1" name="fname" [(ngModel)]="firstname">
