@@ -1,0 +1,22 @@
+<div class="container">
+    <form>
+        <div class="mb-3">
+          <label for="id1" class="form-label">Product Name :</label>
+          <input type="text" class="form-control" id="id1" name="pname" [(ngModel)]="productname">
+        </div>
+        <div class="mb-3">
+            <label for="id2" class="form-label">Product Price :</label>
+            <input type="text" class="form-control" id="id2"  name="pprice" [(ngModel)]="productprice">
+          </div>
+          <div class="mb-3">
+            <label for="id3" class="form-label">Quantity :</label>
+            <input type="text" class="form-control" id="id3"  name="pquantity" [(ngModel)]="productquantity">
+          </div>
+          <div class="mb-3">
+            <label for="id4" class="form-label">Discount :</label>
+            <input type="text" class="form-control" id="id4"  name="pdiscount" [(ngModel)]="productdiscount">
+          </div>
+        <button type="button" class="btn btn-primary" (click)="total()">Total Price</button>
+      </form>
+      <h1>Total Price is : {{totalprice}}</h1>
+</div>

@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class DataBindingComponent {
 
-  firstname:string="jay";
+  firstname:string="";
   lastname:string="katwate";
   imagepath:string="./../assets/Images/wallpaperflare.com_wallpaper.jpg";
   otpa:number=1000;
